@@ -1,0 +1,13 @@
+@import"variables";
+
+@mixin footer-cont {
+    display: inline-block;
+    vertical-align: top;
+}
+
+@mixin media-cont {
+    display: block;
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+}
