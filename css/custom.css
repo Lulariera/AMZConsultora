@@ -11132,10 +11132,11 @@ body {
 
 /*NAV*/
 .navbar a:hover {
-  color: white;
+  color: black;
 }
 
 .navbar .navbar-brand {
+  color: white;
   font-size: 30px;
 }
 .navbar .navbar-brand span {
@@ -11149,6 +11150,7 @@ body {
   padding: 10px 10px;
 }
 .navbar .navbar-nav .nav-link {
+  color: white;
   font-size: 15px;
   margin-left: 10px;
 }

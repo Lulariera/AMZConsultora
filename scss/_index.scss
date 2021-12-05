@@ -7,11 +7,11 @@ body {
 /*NAV*/
 
 	.navbar a:hover {
-		color: white;
+		color:black;
 	}
-
 	.navbar{
 	.navbar-brand {
+		color: white;
 		font-size: 30px;
 		span {
 			color: rgb(13, 110, 253);
@@ -26,6 +26,7 @@ body {
 			padding: 10px 10px;
 		}
 		.nav-link {
+			color: white;
 			font-size: 15px;
 			margin-left: 10px;
 		}
