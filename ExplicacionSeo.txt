@@ -1,0 +1,28 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+
+•	Descripción: mediante la etiqueta < name =“description”>, agregué el siguiente párrafo que explica  el contenido de mi sitio: “Higiene y seguridad laboral. Brigada de emergencia. Medicina laboral. Actuación de emergencia. Simulacros. Bomberos"
+•	Palabras clave: mediante la etiqueta <meta name= “keywords”>, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "higiene, seguridad, emergencia, brigada, simulacros, bomberos, rescate, accidente, industria."
+•	Encabezado: para el encabezado del h1 utilicé el texto “NEWS Accidentes Industriales”, donde se refleja dos noticias de accidentes industriales en la región- Santa Fe, Argentina.
+•	Título : para el titulo utilicé el texto “AMZ – Brigadas de emergencia- Higiene y Seguridad”
+
+En el archivo nosotros.html sumé el SEO con las siguientes características:
+
+•	Descripción: mediante la etiqueta < name =“description”>, agregué el siguiente párrafo que explica  el contenido de mi sitio: “En AMZ tenemos como objetivo satisfacer integralmente las necesidades de cualquier tipo de Empresa en cuanto a consultoría ligada a Seguridad e higiene, Salud Laboral, Medio Ambiente, Asesoramiento Legal y Control de documentación"
+•	Palabras clave: mediante la etiqueta <meta name= “keywords”>, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "misión, higiene, seguridad, emergencia, salud, laboral, medio ambiente, asesoría,  industria."
+•	Encabezado: para el encabezado del h1 utilicé el texto “AMZ división rescate”.
+•	Título : para el título utilicé el texto “AMZ División rescate”
+
+
+
+En el archivo servicios.html sumé el SEO con las siguientes características:
+
+•	Descripción: mediante la etiqueta < name =“description”>, agregué el siguiente párrafo que explica  el contenido de mi sitio: “AMZ división Higiene y Seguridad, Actuación de Emergencia, Medicina Laboral”."
+•	Palabras clave: mediante la etiqueta <meta name= “keywords”>, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "higiene, seguridad, emergencia, medicina, laboral, medico, emergencias, bomberos, autobomba, industria"
+•	Título : para el título utilicé el siguiente texto “AMZ – división Higiene y Seguridad, Actuación de Emergencias, Medicina Laboral”
+
+En el archivo simulacros.html sumé el SEO con las siguientes características:
+
+•	Descripción: mediante la etiqueta < name =“description”>, agregué el siguiente párrafo que explica  el contenido de mi sitio: “Simulacros de emergencia”
+•	Palabras clave: mediante la etiqueta <meta name= “keywords”>, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "higiene, seguridad, emergencia, brec, incendio, trauma”
+•	Título : Para el título utilicé el siguiente texto “AMZ Simulacros de Emergencias”
+

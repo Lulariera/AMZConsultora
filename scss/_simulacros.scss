@@ -1,21 +1,18 @@
 @import 'variables';
 
 main{
+    .container{
+        h2{
+            text-align: center;
+        }
+    }
     .carousel-item{
 .I_C{ 
-    max-width: 800px;
-    max-height: 600px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     margin: auto;
-}
-.h5-s{
-    color: white;
-    font-size: 20px;
-}
-.p-s{
-    color: white;
-    background-color:rgb(13, 110, 253);
 }
     }
 }

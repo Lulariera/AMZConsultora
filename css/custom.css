@@ -11222,20 +11222,15 @@ main .Cn .noticias {
     font-size: 20px;
   }
 }
+main .container h2, main .container .h2 {
+  text-align: center;
+}
 main .carousel-item .I_C {
-  max-width: 800px;
-  max-height: 600px;
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   margin: auto;
-}
-main .carousel-item .h5-s {
-  color: white;
-  font-size: 20px;
-}
-main .carousel-item .p-s {
-  color: white;
-  background-color: #0d6efd;
 }
 
 *,
