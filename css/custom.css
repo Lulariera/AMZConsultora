@@ -2226,7 +2226,6 @@ progress {
   margin-inline-end: 0.75rem;
   color: #212529;
   background-color: #e9ecef;
-  pointer-events: none;
   border-color: inherit;
   border-style: solid;
   border-width: 0;
@@ -2248,7 +2247,6 @@ progress {
   margin-inline-end: 0.75rem;
   color: #212529;
   background-color: #e9ecef;
-  pointer-events: none;
   border-color: inherit;
   border-style: solid;
   border-width: 0;
@@ -3683,7 +3681,6 @@ textarea.form-control-lg {
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #adb5bd;
-  pointer-events: none;
   background-color: transparent;
 }
 
@@ -3856,7 +3853,6 @@ textarea.form-control-lg {
 }
 .nav-link.disabled {
   color: #6c757d;
-  pointer-events: none;
   cursor: default;
 }
 
@@ -4739,7 +4735,6 @@ textarea.form-control-lg {
 }
 .page-item.disabled .page-link {
   color: #6c757d;
-  pointer-events: none;
   background-color: #fff;
   border-color: #dee2e6;
 }
@@ -5000,7 +4995,6 @@ textarea.form-control-lg {
 }
 .list-group-item.disabled, .list-group-item:disabled {
   color: #6c757d;
-  pointer-events: none;
   background-color: #fff;
 }
 .list-group-item.active {
@@ -5304,7 +5298,6 @@ textarea.form-control-lg {
   opacity: 1;
 }
 .btn-close:disabled, .btn-close.disabled {
-  pointer-events: none;
   user-select: none;
   opacity: 0.25;
 }
@@ -5334,7 +5327,6 @@ textarea.form-control-lg {
 .toast-container {
   width: max-content;
   max-width: 100%;
-  pointer-events: none;
 }
 .toast-container > :not(:last-child) {
   margin-bottom: 0.75rem;
@@ -5378,7 +5370,6 @@ textarea.form-control-lg {
   position: relative;
   width: auto;
   margin: 0.5rem;
-  pointer-events: none;
 }
 .modal.fade .modal-dialog {
   transition: transform 0.3s ease-out;
@@ -6265,14 +6256,14 @@ textarea.form-control-lg {
   }
 }
 .placeholder-wave {
-  mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);
+  mask-image: linear-gradient(130deg, 55%, rgba(0, 0, 0, 0.8) 75%,95%);
   mask-size: 200% 100%;
   animation: placeholder-wave 2s linear infinite;
 }
 
 @keyframes placeholder-wave {
   100% {
-    mask-position: -200% 0%;
+    mask-position: -100% 0%;
   }
 }
 .clearfix::after {
@@ -7741,14 +7732,6 @@ textarea.form-control-lg {
 
 .user-select-none {
   user-select: none !important;
-}
-
-.pe-none {
-  pointer-events: none !important;
-}
-
-.pe-auto {
-  pointer-events: auto !important;
 }
 
 .rounded {
