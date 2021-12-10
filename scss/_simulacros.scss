@@ -1,6 +1,7 @@
 @import 'variables';
 
-main{
+.main-simulacros{
+    margin-top: 15px ;
     .container{
         h2{
             text-align: center;
@@ -8,7 +9,6 @@ main{
     }
     .carousel-item{
 .I_C{ 
-    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;

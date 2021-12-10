@@ -11222,17 +11222,57 @@ main .Cn .noticias {
     font-size: 20px;
   }
 }
-main .container h2, main .container .h2 {
+.Nc {
+  max-width: 100%;
+  background-color: black;
+  color: #0d6efd;
+  margin: auto;
+}
+
+.body_logos {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1250px);
+  }
+}
+.slider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: 2500px;
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
+
+.main-simulacros {
+  margin-top: 15px;
+}
+.main-simulacros .container h2, .main-simulacros .container .h2 {
   text-align: center;
 }
-main .carousel-item .I_C {
-  width: 100%;
+.main-simulacros .carousel-item .I_C {
   height: auto;
   display: flex;
   justify-content: center;
   margin: auto;
 }
-main .carousel-item h5, main .carousel-item .h5 {
+.main-simulacros .carousel-item h5, .main-simulacros .carousel-item .h5 {
   background-color: #0d6efd;
 }
 

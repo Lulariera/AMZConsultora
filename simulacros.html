@@ -30,8 +30,9 @@
     <nav class="nav-nav navbar sticky-top navbar-expand-lg bg-gradient">
         <div class="container">
             <a class="navbar-brand" href="#">AMZ<span>Consultora</span></a>
-            <button class="navbar-toggler bg-gray" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler bg-gray" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
 
@@ -56,67 +57,68 @@
     </nav>
 </header>
 <!--Galeria de imagenes Simulacros-->
-<main>
-    <div class="container">
-        <h2>Simulacros de emergencias</h2>
-        <div id="carouselExample" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="5000">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
-                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3"></button>
-            </div>
+<main class="main-simulacros">
+    <section class="carrusel w-100 d-flex justify-content-center mt-15">
+        <!--COMIENZO DE CAROUSEL MAIN-->
+
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="I_C d-block w-100" src="./IMG/s1.jpg" alt="First slide">
+                <div class="carousel-item active d-flex justify-content-center">
+                    <img src="./IMG/s1.jpg" class="I_C d-block w-75 image-fluid" alt="">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>- BREC -</h5>
                         <p>BUSQUEDA Y RESCATE EN ESTRUCTURAS COLAPSADAS</p>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="I_C d-block w-100" src="./IMG/s2.jpg" alt="Second slide">
+                <div class="carousel-item d-flex justify-content-center">
+                    <img src="./IMG/s2.jpg" class="I_C d-block w-75 image-fluid" alt="">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>- TRAUMA -</h5>
                         <p>RESCATE Y 1° AUXILIO</p>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="I_C d-block w-100" src="./IMG/s3.jpg" alt="Third slide">
+                <div class="carousel-item d-flex justify-content-center">
+                    <img src="./IMG/s3.jpg" class="I_C d-block w-75 image-fluid" alt="">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>- INCENDIO -</h5>
                         <p>CONTROL DE FUEGO</p>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="I_C d-block w-100" src="./IMG/s4.jpg" alt="fourth slide">
+                <div class="carousel-item d-flex justify-content-center">
+                    <img src="./IMG/s4.jpg" class="I_C d-block w-75 image-fluid" alt="">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>- HAZMAT -</h5>
                         <p>MATERIALES PELIGROSOS</p>
                     </div>
                 </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-secondary " aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-secondary " aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" data-bs-target="#carouselExample" type="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" data-bs-target="#carouselExample" type="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
+            <!--FIN DE CAROUSEL MAIN-->
+
+    </section>
 </main>
 <!--contenedor de logos!-->
 <footer class="footer-distributed bg-gradient">
     <div class="footer-left">
         <h3>AMZ<span>Consultora</span></h3>
         <p class="footer-links">
-            <a href="/index.html">INICIO</a>
-            <a href="/nosotros.html">NOSOTROS</a>
-            <a href="/servicios.html">SERVICIOS</a>
-            <a href="/simulacros.html">SIMULACROS</a>
-            <a href="/contacto.html">CONTACTO</a>
+            <a href="index.html">INICIO</a>
+            <a href="nosotros.html">NOSOTROS</a>
+            <a href="servicios.html">SERVICIOS</a>
+            <a href="simulacros.html">SIMULACROS</a>
+            <a href="contacto.html">CONTACTO</a>
         </p>
         <p class="footer-company-name">AMZ © 2021</p>
     </div>

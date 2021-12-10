@@ -129,3 +129,39 @@ main {
 	}
 
 }
+.Nc{
+	max-width: 100%;
+	background-color: black;
+	color: $color-fuente;
+	margin: auto;
+}
+.body_logos{
+	align-items: center;
+	justify-content: center;
+	margin:auto
+}
+
+$animationSpeed: 40s;
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 5))}
+}
+
+.slider {
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: auto;
+	
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(250px * 10);
+	}
+	.slide {
+		height: 100px;
+		width: 250px;
+	}
+}
