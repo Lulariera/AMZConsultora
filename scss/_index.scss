@@ -122,46 +122,49 @@ main {
 		}
 
 		.titulo-destacados {
-			.Nd {
+			.Nd h1 {
 				font-size: 20px;
 			}
 		}
 	}
 
 }
+
+/* contenedor de logos! */
 .Nc{
-	max-width: 100%;
+	width: 100%;
 	background-color: black;
 	color: $color-fuente;
-	margin: auto;
+	padding: 15px;
+	text-align: center;
+	align-content: center;
 }
 .body_logos{
-	align-items: center;
-	justify-content: center;
-	margin:auto
-}
-
-$animationSpeed: 40s;
-
-@keyframes scroll {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 5))}
-}
-
-.slider {
-	height: 100px;
-	margin: auto;
-	overflow:hidden;
-	position: relative;
-	width: auto;
+		align-items: center;
+		justify-content: center;
+	}
 	
-	.slide-track {
-		animation: scroll $animationSpeed linear infinite;
-		display: flex;
-		width: calc(250px * 10);
+	$animationSpeed: 40s;
+	
+	@keyframes scroll {
+		0% { transform: translateX(0); }
+		100% { transform: translateX(calc(-250px * 7))}
 	}
-	.slide {
-		height: 100px;
-		width: 250px;
+	
+	.slider {
+		height: 50px;
+		margin: auto;
+		overflow:hidden;
+		position: relative;
+		width: auto;
+		
+		.slide-track {
+			animation: scroll $animationSpeed linear infinite;
+			display: flex;
+			width: calc(250px * 14);
+		}
+		.slide {
+			height: 50px;
+			width: 200px;
+		}
 	}
-}
