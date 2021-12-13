@@ -1,7 +1,17 @@
 @import 'variables';
 
 
+.main_N{
 .imagen:hover{
     -webkit-transform:scale(1.2);
     transform: scale(1.2);
-} 
+}
+.contenedorParrafo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+
+}

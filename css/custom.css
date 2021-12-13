@@ -11536,9 +11536,14 @@ body {
   vertical-align: top;
 }
 
-.imagen:hover {
+.main_N .imagen:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+}
+.main_N .contenedorParrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=custom.css.map */
