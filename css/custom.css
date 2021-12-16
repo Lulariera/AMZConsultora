@@ -11128,6 +11128,7 @@ textarea.form-control-lg {
 
 body {
   max-width: 2000px;
+  min-width: 325px;
 }
 
 /*NAV*/
@@ -11276,6 +11277,11 @@ main .Cn .noticias {
   background-color: black;
 }
 
+@media screen and (max-width: 400px) {
+  .main-simulacros .h4 {
+    font-size: 10px;
+  }
+}
 *,
 *::before,
 ::after {
